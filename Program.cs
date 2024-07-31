@@ -11,8 +11,8 @@ player2.Play(player1);
 
 Console.WriteLine("-------------------");
 
-Player player3 = new Player();
-player3.Name = "Wilma";
+Player player3 = new HumanPlayer();
+player3.Name = "Player";
 
 player3.Play(player2);
 
