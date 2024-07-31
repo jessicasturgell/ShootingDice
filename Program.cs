@@ -4,7 +4,7 @@ SmackTalkingPlayer player1 = new SmackTalkingPlayer();
 player1.Name = "Bob";
 player1.Taunt = "Big Crying Babypants";
 
-Player player2 = new Player();
+Player player2 = new OneHigherPlayer();
 player2.Name = "Sue";
 
 player2.Play(player1);
